@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 class PageController extends Controller
 {
-    // Initial page
+    /**
+     * Initial page
+     */
     public function index()
     {
         return view('pages.index');
