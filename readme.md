@@ -29,6 +29,10 @@ Email Template
     @endslot
 
     This is the email body
+    
+    @component('mail::button', ['url' => '', 'color' => 'green'])
+      Button
+    @endcomponent
 
     @slot('footer')
         @component('mail::footer')
