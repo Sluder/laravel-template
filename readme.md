@@ -18,7 +18,7 @@
   	* `npm install --no-bin-links`  Installs all node dependencies
   	* `composer install`  Installs other project dependencies
   	* `php artisan key:generate`  Creates project encryption key
-  	* `npm run dev`  Compiles css & js
+  	* `npm run dev`  Compiles CSS & JS
 
 ### Helpers
 Email Template
