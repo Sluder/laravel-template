@@ -155,7 +155,6 @@ return [
         /*
          * Added providers
          */
-        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
     ],
 
     /*
@@ -205,5 +204,4 @@ return [
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
     ],
-
 ];
