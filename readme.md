@@ -17,3 +17,23 @@
   	* `composer install`  Installs other project dependencies
   	* `php artisan key:generate`  Creates project encryption key
   	* `npm run dev`  Compiles css & js
+
+### Helpers
+Email Template
+```
+@component('mail::layout')
+    @slot('header')
+        @component('mail::header')
+            Header Title
+        @endcomponent
+    @endslot
+
+    This is the email body
+
+    @slot('footer')
+        @component('mail::footer')
+            © Copyright
+        @endcomponent
+    @endslot
+@endcomponent
+```
