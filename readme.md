@@ -13,7 +13,7 @@
   - PhpStorm needs the Laravel Plugin installed. Settings -> Plugins -> Search for Laravel Plugin -> Browser Repositories 
 
 ### Installation
-Run `npm run setup` to auto run all the commands usually ran on initial setup :
+1) Run `npm run setup` to auto run all the commands usually ran on initial setup :
     * `rm -rf .git; git init`  Removes this repo from the project
     * `cp .env.example .env`  Creates project environment file
   	* `npm install --no-bin-links`  Installs all node dependencies
