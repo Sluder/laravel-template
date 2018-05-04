@@ -5,9 +5,10 @@
   - Major cleanup in base files
 - Includes base controllers and assets:
   - Bootstrap
+  - Font Awesome
   - JQuery
   - HTML & Form Laravel packages
-- Includes PhpStorm autocompletion for laravel
+- Includes PhpStorm autocompletion for Laravel
   - PhpStorm needs the Laravel Plugin installed. Settings -> Plugins -> Search for Laravel Plugin -> Browser Repositories 
 
 ### Installation
