@@ -24,22 +24,22 @@
 Email Template
 ```
 @component('mail::layout')
-    @slot('header')
-        @component('mail::header', ['url' => config('app.url')])
-            Header Title
-        @endcomponent
-    @endslot
+@slot('header')
+  @component('mail::header', ['url' => config('app.url')])
+    Header Title
+  @endcomponent
+@endslot
 
-    This is the email body
+This is the email body
     
-    @component('mail::button', ['url' => '', 'color' => 'green'])
-      Button
-    @endcomponent
+@component('mail::button', ['url' => '', 'color' => 'green'])
+  Button
+@endcomponent
 
-    @slot('footer')
-        @component('mail::footer')
-            © Copyright
-        @endcomponent
-    @endslot
+@slot('footer')
+  @component('mail::footer')
+    © Copyright
+  @endcomponent
+@endslot
 @endcomponent
 ```
