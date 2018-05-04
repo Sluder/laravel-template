@@ -8,6 +8,7 @@
   - Font Awesome
   - JQuery
   - HTML & Form Laravel packages
+  - `doctrine/dbal` for migration column editing
 - Includes PhpStorm autocompletion for Laravel
   - PhpStorm needs the Laravel Plugin installed. Settings -> Plugins -> Search for Laravel Plugin -> Browser Repositories 
 
