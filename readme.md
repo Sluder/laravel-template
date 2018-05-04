@@ -38,6 +38,17 @@ This is the email body
   Button
 @endcomponent
 
+{{-- Cutom color button --}}
+<table width="100%">
+  <tr>
+    <td style="text-align: center;">
+      <a href="# " class="button" target="_blank" style="background-color: #ff5620;padding: 10px 35px;font-size: 16px;">
+        Button
+      </a>
+    </td>
+  </tr>
+</table>
+
 @slot('footer')
   @component('mail::footer')
     © Copyright
