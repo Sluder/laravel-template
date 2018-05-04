@@ -20,6 +20,7 @@
   	* `composer install`  Installs other project dependencies
   	* `php artisan key:generate`  Creates project encryption key
   	* `npm run dev`  Compiles CSS & JS
+2) Add your remote URL to the Git project
 
 ### Helpers
 Email Template
