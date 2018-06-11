@@ -1,4 +1,4 @@
-## Laravel v5.5 Template
+## Laravel v5.6 Template
 
 - Fixes a lot of Laravel new project issues:
   - Webpack unable to compile due to wrong linked directories
