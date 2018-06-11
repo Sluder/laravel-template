@@ -10,6 +10,7 @@ return [
     | framework needs to place the application's name in a notification or
     | any other location as required by the application or its packages.
     */
+    
     'name' => 'Laravel',
 
     /*
@@ -22,6 +23,7 @@ return [
     | services your application utilizes. Set this in your ".env" file.
     |
     */
+    
     'env' => env('APP_ENV', 'production'),
 
     /*
@@ -34,6 +36,7 @@ return [
     | application. If disabled, a simple generic error page is shown.
     |
     */
+    
     'debug' => env('APP_DEBUG', false),
 
     /*
@@ -46,6 +49,7 @@ return [
     | your application so that it is used when running Artisan tasks.
     |
     */
+    
     'url' => env('APP_URL', 'http://localhost'),
 
     /*
@@ -58,6 +62,7 @@ return [
     | ahead and set this to a sensible default for you out of the box.
     |
     */
+    
     'timezone' => 'UTC',
 
     /*
@@ -70,6 +75,7 @@ return [
     | to any of the locales which will be supported by the application.
     |
     */
+    
     'locale' => 'en',
 
     /*
@@ -82,6 +88,7 @@ return [
     | the language folders that are provided through your application.
     |
     */
+    
     'fallback_locale' => 'en',
 
     /*
@@ -94,6 +101,7 @@ return [
     | will not be safe. Please do this before deploying an application!
     |
     */
+    
     'key' => env('APP_KEY'),
     'cipher' => 'AES-256-CBC',
 
@@ -109,6 +117,7 @@ return [
     | Available Settings: "single", "daily", "syslog", "errorlog"
     |
     */
+    
     'log' => env('APP_LOG', 'single'),
     'log_level' => env('APP_LOG_LEVEL', 'debug'),
 
@@ -122,6 +131,7 @@ return [
     | this array to grant expanded functionality to your applications.
     |
     */
+    
     'providers' => [
         Illuminate\Auth\AuthServiceProvider::class,
         Illuminate\Broadcasting\BroadcastServiceProvider::class,
@@ -167,6 +177,7 @@ return [
     | the aliases are "lazy" loaded so they don't hinder performance.
     |
     */
+    
     'aliases' => [
         'App' => Illuminate\Support\Facades\App::class,
         'Artisan' => Illuminate\Support\Facades\Artisan::class,
