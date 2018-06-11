@@ -22,7 +22,7 @@
   	* `npm run dev`  Compiles CSS & JS
 2) Add your remote URL to the Git project
 
-### Helpers
+### Quick References
 Email Template
 ```
 @component('mail::layout')
