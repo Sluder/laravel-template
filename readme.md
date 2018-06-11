@@ -16,7 +16,7 @@
 1) Run `npm run setup` to auto run all the commands usually ran on initial setup :
     * `rm -rf .git; git init`  Removes this repo from the project
     * `cp .env.example .env`  Creates project environment file
-  	* `npm install --no-bin-links`  Installs all node dependencies
+  	* `npm install --no-bin-links`  Installs all node dependencies (May need re-ran with sudo access)
   	* `composer install`  Installs other project dependencies
   	* `php artisan key:generate`  Creates project encryption key
   	* `npm run dev`  Compiles CSS & JS
