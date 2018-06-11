@@ -10,7 +10,7 @@
   - HTML & Form Laravel packages
   - `doctrine/dbal` for migration column editing
 - Includes PhpStorm autocompletion for Laravel
-  - PhpStorm needs the Laravel Plugin installed. Settings -> Plugins -> Search for Laravel Plugin -> Browser Repositories 
+  - PhpStorm needs the Laravel Plugin installed. Settings -> Plugins -> Search for Laravel Plugin -> Browse Repositories 
 
 ### Installation
 1) Run `npm run setup` to auto run all the commands usually ran on initial setup :
